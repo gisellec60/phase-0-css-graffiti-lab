@@ -1,1 +1,20 @@
-/* write your override styles here */
+#wall .tag-1 {
+  background: url(../images/tag-1.png) no-repeat;
+  z-index: 7;
+  display: block;
+}
+
+    
+#wall.tag-1, #wall #tag-2, #wall #tag-3, #wall #tag-4, #wall #tag-5, #wall #tag-6, #wall #tag-7 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 980px;
+  height: 622px;
+}
+
+div#wall #tag-2 {
+  background: url(../images/tag-2.png) no-repeat;
+  z-index: 6;
+  display: block;
+}
